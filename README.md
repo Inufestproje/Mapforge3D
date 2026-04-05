@@ -139,6 +139,12 @@ python main.py point-radius 38.35 38.32 800 --without-railways
 
 Bu betiklerin hepsi arka planda yeni `main.py` akisina baglidir.
 
+## Sample Klasoru
+
+- `sample/README.md`: hizli calisan ornek komutlar
+- `sample/example_polygon.txt`: polygon modu icin hazir koordinat satiri
+- `sample/run_quick_sample.ps1`: tek komutla hizli deneme
+
 ## Kullanilan Kutuphaneler
 
 - `osmnx`
