@@ -21,6 +21,26 @@ Tum katmanlar tek bir birlesik STL dosyasina aktarilir.
 - `bbox`: dikdortgen alan
 - `polygon`: koordinat listesiyle serbest cokgen alan
 
+## Kurulum
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Hizli kontrol:
+
+```bash
+python main.py --help
+```
+
+Not:
+
+- `venv/` repoya yuklenmez, her kullanici kendi ortaminda olusturur.
+- `cache/` repoya yuklenmez, calisma sirasinda otomatik olusur.
+- STL ciktilari calisma sirasinda `3_boyutlu_stl_dosyalari/` altina yazilir.
+
 ## Ana Kullanim
 
 ### 1. Nokta + yaricap
